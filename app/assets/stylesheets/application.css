@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+body {
+  background-image: url('http://www.hdwallpapers-3d.com/wp-content/uploads/2014/06/puzzle-pictures-hd-wallpaper-12.jpg');
+  background-size: cover;
+}
+
+ .happy {
+   height: 40px;
+   background-color: green;
+   opacity: 0.8;
+}
+
+ .bottom {
+   border-bottom-left-radius: 20em;
+   border-bottom-right-radius: 20em;
+ }
+
+  .top {
+    border-top-left-radius: 20em;
+    border-top-right-radius: 20em;
+    border-top: 7px solid darkgreen;
+  }
+
+  .win {
+    box-shadow: inset 0 0 10px #000000;
+
+  }
+
+  .dontbreak {
+    white-space: nowrap;
+    overflow: hidden;
+    color: red;
+    font-size: 22px;
+    background-color: #F5F5F0;
+    opacity: 0.8;
+  }
+
+  #next {
+    display: none;
+  }
+
+  button {
+    box-shadow: 10px 10px 5px #bdb9bd;
+  }
+
+  button:hover {
+    box-shadow: 5px 5px 0px #888888;
+  }
+
+  .toppart {
+    height: 50px;
+  }
